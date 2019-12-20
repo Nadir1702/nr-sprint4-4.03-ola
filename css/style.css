@@ -1,0 +1,201 @@
+/*
+
+Kleuren:
+
+Magnum    #311a00
+Cornetto  #289ecd
+Solero    #40a711
+Kids      #ffdd00
+Vienetta  #289ecd
+Classics  #ffdd00
+
+Lekker zo'n ijsje   #ff3026
+Wat is ons verhaal? #46a916
+Ontdek onze ijsjes  #ffdd00
+Footer              #fc0400
+*/
+
+@import url(//db.onlinewebfonts.com/c/5c8036fec9d614a90b202dbe1c3b8395?family=Stick-A-RoundW00-Stick-A-Round);
+@font-face {
+  font-family: "Stick-A-RoundW00-Stick-A-Round";
+}
+
+/* Utilities */
+
+:root {
+  --section-padding: 4rem 0;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+}
+
+/* Initialise */
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2 {
+  font-family: "Stick-A-RoundW00-Stick-A-Round", sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+}
+
+/* Logo */
+.logo img {
+  max-height: 55px;
+}
+
+/* Menu items */
+.main-menu {
+  flex-grow: 2;
+  padding: 0 50px;
+}
+
+.main-menu ul {
+  display: flex;
+  margin: 0px;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.main-menu ul li {
+  padding: 16px 10px;
+  color: #f30501;
+}
+
+.main-menu ul li:hover {
+  color: #fff;
+  background: #f30501;
+}
+
+.search {
+  margin-bottom: 5px;
+}
+
+/* Showcase */
+.showcase {
+  display: flex;
+  background: #ff3026
+    url("https://asset-eu.unileversolutions.com/content/dam/unilever/heart/netherlands/general_image/walls_nl_header-1382974-jpg.jpg.ulenscale.960x240.jpg")
+    no-repeat center/cover;
+  height: 33.3vh;
+  padding-left: 5%;
+  align-items: center;
+}
+
+.showcase-text {
+  color: #fff;
+  font-size: 5rem;
+}
+
+/* Products gallery */
+.products {
+  background: #f30501;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  flex: 0 0 25%;
+}
+
+.product img {
+  display: flex;
+  max-width: 100%;
+}
+
+/* History */
+.history {
+  background: #46a916;
+  padding: var(--section-padding);
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.history-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.history-container > * {
+  flex-basis: 50%;
+}
+
+.history img {
+  max-width: 100%;
+}
+
+.history-content {
+  padding: 0 5%;
+  color: #fff;
+}
+
+.history-content a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Explore */
+.explore {
+  background: #ffdd00;
+  padding: var(--section-padding);
+  text-align: center;
+}
+
+.explore h1 {
+  color: #ff3026;
+}
+.explore h2 {
+  color: #fff;
+  /* padding-top: 5rem; */
+}
+.articles {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 30vh;
+  margin-bottom: 50px;
+}
+
+.explore-article {
+  display: flex;
+  background: #fff no-repeat center center/cover;
+  width: 33.3%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.explore-article--glutenfree {
+  background-image: url("https://asset-eu.unileversolutions.com/content/dam/unilever/heart/global/general_image/spoon_640x640-1390623-jpg.jpg.ulenscale.320x200.jpg");
+  background-blend-mode: darken;
+}
+.explore-article--suitable {
+  background-image: url("https://asset-eu.unileversolutions.com/content/dam/unilever/heart/global/general_image/ice_cream/out_of_home_ice_cream/walls_c52_relatedarticles_girls-1052897-jpg.jpg.ulenscale.320x200.jpg");
+}
+
+/* Button */
+.explore a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: #ff3026;
+  border: #ff3026 solid 1px;
+  border-radius: 2rem;
+}
