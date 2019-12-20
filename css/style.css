@@ -1,6 +1,4 @@
-/*
-
-Kleuren:
+/* Kleuren:
 
 Magnum    #311a00
 Cornetto  #289ecd
@@ -12,12 +10,12 @@ Classics  #ffdd00
 Lekker zo'n ijsje   #ff3026
 Wat is ons verhaal? #46a916
 Ontdek onze ijsjes  #ffdd00
-Footer              #fc0400
-*/
+Footer              #fc0400 */
 
 @import url(//db.onlinewebfonts.com/c/5c8036fec9d614a90b202dbe1c3b8395?family=Stick-A-RoundW00-Stick-A-Round);
 @font-face {
   font-family: "Stick-A-RoundW00-Stick-A-Round";
+  /* src: url("//db.onlinewebfonts.com/t/5c8036fec9d614a90b202dbe1c3b8395.eot"); */
 }
 
 /* Utilities */
